@@ -1,5 +1,9 @@
 # DocService
 
+<p align="left">
+  <a href="README.fa.md">🌐 مطالعه به زبان فارسی (Persian Version)</a>
+</p>
+
 ### A Lightweight Documentation Management Tool
 
 **Create documentation. Keep it organized. Export it. Use it anywhere.**
