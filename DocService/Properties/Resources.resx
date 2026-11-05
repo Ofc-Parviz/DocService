@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DocServiceLogo4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DocServiceLogo4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thin-0056_bin_trash_recycle_delete_garbage_empty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thin-0056_bin_trash_recycle_delete_garbage_empty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thin-0141_rotate_back_revert_undo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thin-0141_rotate_back_revert_undo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DocServiceLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DocServiceLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DocServiceLogo5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DocServiceLogo5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thin_0155_delete_remove_exit_close_checkbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thin-0155_delete_remove_exit_close_checkbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thin-0078_document_file_word_office_doc_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thin-0078_document_file_word_office_doc_text.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thin-0137_zoom_expand_maximize_window2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thin-0137_zoom_expand_maximize_window2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DocServiceGif2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DocServiceGif2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thin-0003_write_pencil_new_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thin-0003_write_pencil_new_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thin-0060_error_warning_danger_stop_delete_exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thin-0060_error_warning_danger_stop_delete_exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DocServiceGif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DocServiceGif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thin-0552_about_question_faq_help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thin-0552_about_question_faq_help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DocServiceGif3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DocServiceGif3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thin_0336_disc_floppy_save_software" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thin-0336_disc_floppy_save_software.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thin-0156_checkbox_ok_successful" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thin-0156_checkbox_ok_successful.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thin_0137_zoom_expand_maximize_window" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thin-0137_zoom_expand_maximize_window.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thin-0552_about_question_faq_help1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thin-0552_about_question_faq_help1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thin-0155_delete_remove_exit_close_checkbox2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thin-0155_delete_remove_exit_close_checkbox1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thin-0159_arrow_back_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thin-0159_arrow_back_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dots-dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dots-dark.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thin-0151_plus_add_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thin-0151_plus_add_new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DocServiceLogo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DocServiceLogo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thin-0073_documents_files_paper_text_archive_copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thin-0073_documents_files_paper_text_archive_copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DocServiceLogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DocServiceLogo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HelpJsonDoc" xml:space="preserve">
+    <value>{"Title":"راهنمای استفاده از DocService","Last_Updated_Date":"1405/08/14","Last_Updated_Clock":"20:12:48","Sections":[{"Alternate_Action":null,"Section_Title":"1. مقدمه و معرفی","Section_Text":"برای هر آدم فنی، اکثر اوقات تهیه مستندات محصول/حاصل کار، دغدغه ای قابل توجه بوده است، مخصوصا برای توسعه دهندگانی که به دنبال راه های ساده تر برای ایجاد مستندات از محصولات نرم افزاری شان هستند.\r\n\r\nنرم افزار DocService به همین منظور، ابزاری بسیار ساده برای سازماندهی و مدیریت مستندات متنی محسوب می شود.\r\n\r\nتوسعه دهنده ی این ابزار، که خود همواره با مسئله مستندسازی درگیر بوده، تصمیم گرفت راهکاری ساده در قالب یک نرم افزار متن باز/رایگان توسعه دهد تا همه افرادی که چالش های مشابهی دارند از آن استفاده کنند.\r\n\r\nاگر حوصله سر و کله زدن با هوش مصنوعی نداشته و به دنبال ابزاری ساده و بی دردسر برای نگهداری، مدیریت و سازماندهی مستندات متنی خود هستید، DocService می تواند بسیار مفید باشد.\r\n\r\nاین نرم افزار احتیاج به نصب هیچ پیش نیازی ندارد. حتی خودش هم هیچ نیازی به نصب شدن روی سیستم شما ندارد، صرفا یک تک فایل exe ایست که اجرا می شود و کارتان را راه می اندازد.\r\n\r\n\r\nساخته شده با 🤍 برای شما\r\ngithub.com/ofc-parviz\r\n2026/11/05 | 1405/08/14 - 15:47\r\n\r\n"},{"Alternate_Action":null,"Section_Title":"2. منطق و شیوه کارکرد","Section_Text":"ایده اینه که «مستندات را یک ‌بار بنویس، ساختاریافته نگهداری کن و هر جا خواستی از آن استفاده کن».\r\n\r\nهر سند = اطلاعات لازم برای ایجاد صفحه ای مشابه همین صفحه ای که دارید مطالعه می کنید.\r\n\r\nبه این ترتیب هر سند:\r\n- یه عنوان داره\r\n- و یه تعداد گزینه که هر گزینه هم عنوان و متن خودش رو داره. \r\n\r\n(عین همین صفحه که عنوان و گزینه داره و شما با کلیک روی گزینه «2. منطق و شیوه کارکرد» به این متن رسیدید.)\r\n\r\nحالا DocService میاد این امکان رو میده که چنین سند هایی رو ایجاد، سازماندهی و مدیریت کنید.\r\n\r\nبعد از ایجاد هر سند، با یک کلیک میتوانید خروجی json حاوی تمام اطلاعات اون سند بگیرید.\r\n\r\nاگر توسعه دهنده هستید، براحتی میتونید از این json آماده برای ایجاد صفحه مد نظر استفاده کنید.\r\n\r\nدر غیر اینصورت، کافیه json آماده رو به هوش مصنوعی بدید و بخواهید با استفاده از اطلاعات داخلش صفحه مد نظر رو بسازه.\r\n\r\nو بعدا هر زمان که مستندات نیاز به تغییرات داشت، کافیه در DocService ویرایش های لازم رو اعمال کرده و از خروجی json جدید استفاده کنید، بدون اینکه نیاز به دستکاری جایی که json رو میگیره و نمایش میده وجود داشته باشه.\r\n\r\nجالب است بدانید مستندات راهنمای خود DocService نیز با استفاده از همین نرم‌افزار تهیه و از خروجی JSON آن بارگذاری می‌شود.(همین صفحه)"},{"Alternate_Action":null,"Section_Title":"3. لینک سورس کد","Section_Text":"نرم افزار DocService یک پروژه کاملا متن باز و رایگان است.\r\n\r\nانتشار و استفاده از آن به هر نحو آزاد است و هیچ مانعی ندارد.\r\n\r\nلینک سورس کد در گیتهاب:\r\n\r\nGithub.com/Ofc-Parviz/DocService"}],"Need_Update":false,"Increase_Window_Size":false}</value>
+  </data>
+</root>
